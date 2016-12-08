@@ -1,0 +1,24 @@
+<html>
+<head>
+
+</head>
+<body>
+<form action="" method="post">
+<font size="5" color="red">
+<p style="padding:5px 70px 5px">欢迎光临安徽大学2017年研究生入学考试查分系统</p>
+</font>
+<font size="4.5" color="red">
+<p style="padding:4px 70px 5px">请输入你的考生编号（即准考证号）和身份证号!</p>
+<hr />
+</font>
+
+<form >
+准考证号：
+<input type="text" name="firstname">
+<br />
+身份证号：
+<input type="text" name="lastname">
+</form>
+<input type="button" value="查询分数" onclick="window.open('2.html','_blank')">
+
+</body>
